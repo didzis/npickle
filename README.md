@@ -1,6 +1,7 @@
 # npickle
 Python pickle extension that enables pickling/unpickling large numpy arrays
 
-Uses numpy's tofile and fromfile functions.
+## Legacy notes
+Uses numpy's tofile and frombuffer functions.
 
-File-like objects are not supported, only real files.
+Pseudo file-like Python objects are not supported, only files.
